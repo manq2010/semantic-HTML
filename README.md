@@ -65,3 +65,31 @@ Headings are the `<h1>` through `<h6>` elements, and like the name implies, thes
 * `<main>`
 * `<nav>`
 * `<section>`
+
+# Design Custom Scroll Bar
+
+```css
+/*Design Custom Scroll Bar*/
+
+body::-webkit-scrollbar {
+    width: 5px;
+    background: #dadada;
+  }
+  
+  body::-webkit-scrollbar-thumb {
+    background: #1e90ff;
+    border-radius: 100px;
+  }
+  
+  body::-webkit-scrollbar-thumb:hover {
+    background: #55a8fb;
+  }
+  
+  /* body::-webkit-scrollbar-button {
+  
+        } */
+  
+  section {
+    height: 500vh;
+  }
+  ```
